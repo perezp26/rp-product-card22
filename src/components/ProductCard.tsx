@@ -3,11 +3,9 @@ import { useProduct } from '../hooks/useProduct';
 import React, { createContext,  CSSProperties } from 'react';
 
 import { ProductContextProps, Product, onChngeArgs, InitialValues, ProductCardHandlers } from '../interfaces/interfaces';
-
 export const ProductContext = createContext({} as ProductContextProps);
+
 const { Provider } = ProductContext;
-
-
 
 export interface Props {
     product : Product,
