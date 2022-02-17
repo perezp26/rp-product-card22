@@ -17,7 +17,7 @@ export interface Props {
     style?: CSSProperties,
     onChange?: (args : onChngeArgs ) => void,
     value?: number,
-    initialValues: InitialValues,
+    initialValues?: InitialValues,
 }
 
 export const ProductCard = ({ product, children, className, style, onChange, value, initialValues }: Props) => {
